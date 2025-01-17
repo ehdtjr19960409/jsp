@@ -1,0 +1,157 @@
+day38일차
+
+복습 -> MyBatis -> MVC
+
+0. 복습
+1) JSP 태그
+	HTML 내부에 자바 코드의 사용이 가능하도록 하는 태그
+지시자태그 <%@ 지시자 %>
+	- 지시자 종류 : page, include, taglib
+선언태그  	<%! %>
+표현식   	<%= %>
+스크립틀릿 <% %>
+주석	<%-- --%>
+액션태그 	<jsp:action></jsp:action>
+
+2) JSTL과 EL
+- JSTL(Jsp Standard Tag Library)
+	JAVA코드를 줄이기 위해 제공되는 태그 라이브러리
+	HTML, JSP 태그, JAVA 코드의 혼합사용을 줄이고 가독성과 유지보수를 높여준다
+	
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+	jstl을 사용하기 위해서 JSP 페이지 상단에 한줄을 추가한다
+
+	<c:set> : 변수 선언
+	<c:out> : 값 출력
+	<c:if> : 단순 if문
+	<c:choose> : 여러조건문의 시작(if ~ else if ~ else)
+	<c:when> : 조건문의 조건식을 작성(조건문의 else if를 의미)
+	<c:otherwise> : 조건문의 else를 의미함
+	<c:forEach> : 반복문
+
+- EL 표현언어
+	JSP에서 사용하는 표현 언어
+
+	<%= name %> => ${name}
+
+- 스코프(scope)
+	page -> request -> session -> application
+
+- EL 연산자
+	산술연산자
+	논리연산자
+	비교연산자 gt, lt, ge, le, eq, ne
+	기타연산자 empty
+
+3) 오라클 21C 설치
+	계정 생성시 세션 변경해야함
+	alter session set "_ORACLE_SCRIPT"=true;
+
+1. MyBatis
+
+[실습] day04_mybatis 프로젝트 만들기
+	url 루트경로는 /mybatis로 설정한다
+	index.jsp를 회원가입 페이지로 사용한다
+		id, pw, name, age, gender입력받는다
+		데이터 이름은 userId, userPw, userName, userAge, userGender로 설정한다
+		단, userGender는 라디오 박스로 입력받는다
+		요청은 MyServlet으로 get방식으로 보낸다
+	com.servlet.app.MyServlet 서블릿을 만든다
+		서블릿 경로는 MyServlet으로 설정한다
+		get방식으로 요청이 들어오면 id, pw, name, age, gender를 result.jsp에 출력한다
+		forward 방식으로 사용자의 페이지를 이동시킨다
+
++) JDBC API(Java Database Connectivity)
+	JAVA 어플리케이션에서 데이터베이스와 상호작용하기 위한 표준 인터페이스를 제공함
+	데이터베이스에 연결하고, SQL 쿼리를 실행하며, 결과를 처리하는데 사용됨
+
+	DBConnector.getConnection()
+
+2. DBCP(DataBase Connection Pool)
+	커넥션 객체를 이용하여 DB에 접근하는데 사용할 때마다 연결과 종료를 반복하면 비효율적이다
+	DBCP는 일정량의 커넥션 객체를 미리 만들어두고  Connection Pool에 보관하여 필요할 때마다 커넥션 객체를 꺼내서 사용하고
+	반납하는 방식으로 관리해준다
+
+3. JNDI(Java Naming and Directory Interface)
+	외부의 자원을 자바의 객체로 가져와 사용할 때 필요한 기술이며 API이다
+	DBCP와 함께 사용하는 이유는 DBCP가 Connection 객체를 생성할 때 필요한 여러 설정값을 저장하고 관리해주어
+	DBCP의 효율을 높여주기 때문이다
+
+4. MyBatis FrameWork
+	* Framework 라이브러리처럼 다른 개발자들이 미리 만들어 둔 코드이다
+	  라이브러리가 내가 필요할 때 사용하는 도구 모음이라면, 프레임워크는 특정 목적을 가지고 만들어진 틀/규칙이다
+
+	관계형 데이터베이스를 자바에서 쉽게 다루도록 도와주는 프레임워크
+	JDBC의 문제점인 반복되는 코드를 줄여주며 java코드와 SQL코드를 분리하여 유지보수와 분업에 유리하게 만들어준다
+	또한 내부적으로 DBCP를 사용하여 커넥션 객체를 여러개 생성하고 관리하기 때문에 효율이 좋다
+
+1) MyBatis의 동작순서
+- 요청이 들어오기 전에 미리 준비한다
+	1. 실행중인 Application이 SqlSession Factory Builder를 만들어 놓는다
+	2. 팩토리 빌더는 MyBatis Config File이라는 설정파일을 참고한다
+	3. 설정파일을 참고하여 SqlSession Factory를 만든다
+
+- 요청이 들어오면 아래와 같이 처리한다
+	4. 사용자의 요청이 들어온다
+	5. SqlSession Factory에게 세션을 찍으라고 명령한다
+	6. 공장에서 세션을 찍어낸다
+	7. 어플리케이션이 SqlSession에게 쿼리를 실행하게 한다
+	8. sqlSession객체가 Mapper.xml에 있는 쿼리를 실행시킨다
+
+2) MyBatis 설치
+	구글 > mybatis 검색 > 링크 클릭
+	https://mybatis.org/mybatis-3/
+
+
+17시 45분까지 itgn.cafe24.com
+	서명 후 zip파일 올리기
+
+(비NCS)중간 프로젝트_java 기반 웹서비스 구축 및 서버 배포 
+
+1. MVC 패턴을 활용한 JSP 팀 프로젝트를 토대로 제출 사항을 잘 확인하고 본인이름.zip 파일 안에 모든 내용 압축해서 넣을 것
+1) 메모장(파일명 : 이름.txt) 
+ - 팀 노션 링크 : 
+ - git-hub 공용레포지토리 링크 : 
+ - git-hub 개인레포지토리 링크 : 
+ 
+2) 중간 프로젝트 모든 과정에 대한 점수가 부여되며 중간프로젝트 발표까지 점수는 포함됩니다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
