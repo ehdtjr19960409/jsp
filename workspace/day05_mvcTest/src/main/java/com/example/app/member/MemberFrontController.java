@@ -7,10 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.ibatis.session.SqlSession;
-
-import com.example.app.dto.MemberDTO;
-import com.mybatis.config.MyBatisConfig;
+import com.example.app.Result;
 
 /**
  * Servlet implementation class MemberFrontController
@@ -70,6 +67,9 @@ public class MemberFrontController extends HttpServlet {
       String target = request.getRequestURI().substring(request.getContextPath().length());
       System.out.println(target);
       
+      Result result = null; //+++++
+      
+      
       switch(target) {
       	
       	case "/member/join.me" :
@@ -82,21 +82,28 @@ public class MemberFrontController extends HttpServlet {
       			System.out.println("joinOk!!");
       			
       			//sqlSession을 이용한다
-      			MemberDTO memberDTO = new MemberDTO();
-      			System.out.println(memberDTO);
-      			memberDTO.setMemberId(request.getParameter("memberId"));
-      			memberDTO.setMemberPassword(request.getParameter("memberPassword"));
-      			memberDTO.setMemberName(request.getParameter("memberName"));
+      			//-> JoinOkController 클래스로 이동
+//      			MemberDTO memberDTO = new MemberDTO();
+//      			System.out.println(memberDTO);
+//      			memberDTO.setMemberId(request.getParameter("memberId"));
+//      			memberDTO.setMemberPassword(request.getParameter("memberPassword"));
+//      			memberDTO.setMemberName(request.getParameter("memberName"));
+//      			
+//      			//valueOf() 문자열을 Integer 타입으로 바꿔준다.
+//      			//parseInt() 와의 차이는 parseInt()는 문자열이 숫자가 아닐 경우 numberFormatException이 발생하지만 valueOf()는 null을 반환한다(즉, 예외발생안함)
+//      			memberDTO.setMemberAge(Integer.valueOf(request.getParameter("memberAge")));
+//      			
+//      			memberDTO.setMemberGender(request.getParameter("memberGender"));
       			
-      			//valueOf() 문자열을 Integer 타입으로 바꿔준다.
-      			//parseInt() 와의 차이는 parseInt()는 문자열이 숫자가 아닐 경우 numberFormatException이 발생하지만 valueOf()는 null을 반환한다(즉, 예외발생안함)
-      			memberDTO.setMemberAge(Integer.valueOf(request.getParameter("memberAge")));
-      			
-      			memberDTO.setMemberGender(request.getParameter("memberGender"));
-      			
-      			SqlSession sqlSession = MyBatisConfig.getSqlSessionFactory().openSession(true);
-      			sqlSession.insert("member.join", memberDTO);
-      			response.sendRedirect(request.getContextPath());
+      			//MemberDAO 클래스로 이동
+//      			SqlSession sqlSession = MyBatisConfig.getSqlSessionFactory().openSession(true);
+//      			sqlSession.insert("member.join", memberDTO);
+      			result = new JoinOkController().execute(request, response); //JoinOkController - excute 메소드 호출
+      			System.out.println(result);
+      			System.out.println(result); //com.example.app.Result@9b75736
+      	        System.out.println(result.getPath() + "==========");
+
+      			//	response.sendRedirect(request.getContextPath());
       			break;
       			//Ok가 필요한 이유는 회원가입 페이지로 단순히 이동하는 것과 회원가입을 처리하는 URL을 나누기 위함이다
       			
@@ -110,9 +117,19 @@ public class MemberFrontController extends HttpServlet {
       	
       	case "/member/loginOk.me" : 
       			System.out.println("loginOk!!");
+      			result = new LoginOkController().execute(request, response);
+      			System.out.println(result.isRedirect());
       			break;
       }
       
+      if(result != null) {
+    	  System.out.println("test!!"); 
+    	  if(result.isRedirect()) {
+    		  response.sendRedirect(result.getPath());
+    	  }else {
+    		  request.getRequestDispatcher(result.getPath()).forward(request, response);
+    	  }
+      }
       
    }
 

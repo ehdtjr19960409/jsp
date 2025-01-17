@@ -30,6 +30,7 @@
    </environments>
    
    <mappers>
+   <!-- 테이블마다 쿼리문 작성하는 file -->
       <mapper resource="com/mybatis/mapper/MemberMapper.xml" />
    </mappers>
    

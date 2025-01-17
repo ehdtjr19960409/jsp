@@ -6,5 +6,10 @@
       values(seq_member.nextVal, #{memberId}, #{memberPassword}, #{memberName}, #{memberAge}, #{memberGender})
    </insert>
    
+   <select id = "login" parameterType = "MemberDTO" resultType = "memberDTO">
+   	select member_number, member_id, member_password, member_name, member_age, member_gender
+   	from tbl_member
+   	where member_id = #{memberId} and member_password = #{memberPassword}
+   </select>
    
 </mapper>
