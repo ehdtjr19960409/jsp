@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: tomcat-dbcp
+Bundle-SymbolicName: org.apache.tomcat-dbcp
+Bundle-Version: 9.0.98
+Export-Package: org.apache.tomcat.dbcp.dbcp2.cpdsadapter;uses:="javax.
+ naming,javax.naming.spi,javax.sql,org.apache.tomcat.dbcp.dbcp2";versi
+ on="9.0.98",org.apache.tomcat.dbcp.dbcp2.datasources;uses:="javax.nam
+ ing,javax.sql";version="9.0.98",org.apache.tomcat.dbcp.dbcp2.managed;
+ uses:="javax.management,javax.sql,javax.transaction,javax.transaction
+ .xa,org.apache.tomcat.dbcp.dbcp2,org.apache.tomcat.dbcp.pool2";versio
+ n="9.0.98",org.apache.tomcat.dbcp.dbcp2;uses:="javax.management,javax
+ .naming,javax.naming.spi,javax.sql,org.apache.juli.logging,org.apache
+ .tomcat.dbcp.pool2,org.apache.tomcat.dbcp.pool2.impl";version="9.0.98
+ ",org.apache.tomcat.dbcp.pool2;version="9.0.98",org.apache.tomcat.dbc
+ p.pool2.impl;uses:="javax.management,org.apache.tomcat.dbcp.pool2";ve
+ rsion="9.0.98"
+Implementation-Title: Apache Tomcat
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 9.0.98
+Import-Package: java.io,java.lang,java.lang.invoke,java.lang.managemen
+ t,java.lang.ref,java.lang.reflect,java.math,java.net,java.nio.charset
+ ,java.security,java.sql,java.text,java.time,java.time.temporal,java.u
+ til,java.util.concurrent,java.util.concurrent.atomic,java.util.concur
+ rent.locks,java.util.function,java.util.logging,java.util.stream,java
+ x.management,javax.naming,javax.naming.spi,javax.sql,javax.transactio
+ n,javax.transaction.xa,org.apache.juli.logging;version="[9.0,10)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Apache Tomcat
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 9.0
+X-Compile-Source-JDK: 8
+X-Compile-Target-JDK: 8
+

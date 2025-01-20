@@ -42,6 +42,7 @@ public class LoginOkController implements Execute {
 			session.setAttribute("memberDTO", memberDTO);
 			
 			
+			
 			//쿠키에 사용자 Id 저장
 			Cookie cookie = new Cookie("memberId", memberId);
 			cookie.setMaxAge(60*60*24); // 유효기간 1일 -> 쿠키의 저장되는 기간
