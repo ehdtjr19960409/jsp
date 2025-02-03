@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/OracleTableIndex/OracleTableIndexColumn">
+		<column name="Column" visible="true" order="0" width="185"/>
+		<column name="인덱스명" visible="true" order="1" width="167"/>
+		<column name="테이블" visible="true" order="2" width="100"/>
+		<column name="인덱스 유형" visible="true" order="3" width="100"/>
+		<column name="Ascending" visible="true" order="4" width="100"/>
+		<column name="Expression" visible="true" order="5" width="100"/>
+		<column name="Unique" visible="true" order="6" width="100"/>
+		<column name="Tablespace" visible="true" order="7" width="100"/>
+	</item>
+	<item id="NodeList/OracleTableIndexColumn">
+		<column name="Column" visible="true" order="0" width="134"/>
+		<column name="이름" visible="true" order="1" width="129"/>
+		<column name="Ascending" visible="true" order="2" width="100"/>
+		<column name="Expression" visible="true" order="3" width="100"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="182"/>
+	</item>
+</items>

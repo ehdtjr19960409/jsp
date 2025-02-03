@@ -3,14 +3,14 @@
 	<section name="DBeaver.DriverTabbedViewer">
 	</section>
 	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
-		<item key="DIALOG_X_ORIGIN" value="250"/>
-		<item key="DIALOG_Y_ORIGIN" value="38"/>
+		<item key="DIALOG_X_ORIGIN" value="15"/>
+		<item key="DIALOG_Y_ORIGIN" value="24"/>
 		<item key="DIALOG_WIDTH" value="956"/>
 		<item key="DIALOG_HEIGHT" value="649"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="DBeaver.ActiveWizardDialog.ProjectCreateWizard">
-		<item key="DIALOG_X_ORIGIN" value="458"/>
+		<item key="DIALOG_X_ORIGIN" value="446"/>
 		<item key="DIALOG_Y_ORIGIN" value="1"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="607"/>
@@ -40,7 +40,7 @@
 			<section name="spreadsheet">
 				<item key="enabledPanelIds" value="value-view"/>
 				<item key="activePanelId" value="value-view"/>
-				<item key="panelRatio" value="300"/>
+				<item key="panelRatio" value="46"/>
 				<item key="panelsVisible" value="true"/>
 				<item key="verticalLayout" value="false"/>
 			</section>
