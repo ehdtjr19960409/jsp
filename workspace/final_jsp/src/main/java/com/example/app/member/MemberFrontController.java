@@ -30,14 +30,27 @@ public class MemberFrontController extends HttpServlet {
 
 		switch (target) {
 		case "/member/join.me":
+			System.out.println("회원가입 이동");
 			request.getRequestDispatcher("/app/member/join.jsp").forward(request, response);
 			break;
 		case "/member/joinOk.me":
+			System.out.println("회원가입 처리 요청");
 			result = new JoinOkController().execute(request, response);
 			break;
 		case "/member/checkIdOk.me":
+			System.out.println("아이디 중복검사");
 			result = new CheckIdOkController().execute(request, response);
 			break;
+			
+		case "/member/sendSMS.me" :
+			 System.out.println("핸드폰 인증 요청");
+			 result = new JoinSMSController().execute(request,response);
+			break;
+		case "/member/verifyCode.me":
+			System.out.println("인증번호 확인 요청");
+			result = new VerifyCodeController().execute(request, response);
+			break;
+			
 		case "/member/login.me":
 			result = new LoginController().execute(request, response);
 //			request.getRequestDispatcher("/app/member/login.jsp").forward(request, response);

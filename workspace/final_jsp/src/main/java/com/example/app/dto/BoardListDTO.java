@@ -10,15 +10,15 @@ public class BoardListDTO {
 	private String boardContent;
 	private String boardDate;
 	private int boardReadCount;
-	private List<FileDTO> files; // 필드 추가, getter, setter 추가
+//	private List<FileDTO> files; // 필드 추가, getter, setter 추가
 	
 	
-	public List<FileDTO> getFiles() {
-		return files;
-	}
-	public void setFiles(List<FileDTO> files) {
-		this.files = files;
-	}
+//	public List<FileDTO> getFiles() {
+//		return files;
+//	}
+//	public void setFiles(List<FileDTO> files) {
+//		this.files = files;
+//	}
 	public int getMemberNumber() {
 		return memberNumber;
 	}
@@ -65,7 +65,7 @@ public class BoardListDTO {
 	public String toString() {
 		return "BoardListDTO [memberNumber=" + memberNumber + ", memberId=" + memberId + ", boardNumber=" + boardNumber
 				+ ", boardTitle=" + boardTitle + ", boardContent=" + boardContent + ", boardDate=" + boardDate
-				+ ", boardReadCount=" + boardReadCount + ", files=" + files + "]";
+				+ ", boardReadCount=" + boardReadCount +  "]";
 	}
 	
 	

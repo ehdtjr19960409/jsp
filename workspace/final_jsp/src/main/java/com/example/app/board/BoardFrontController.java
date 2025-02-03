@@ -55,34 +55,34 @@ public class BoardFrontController extends HttpServlet {
 			System.out.println("리스트=========");
 			// 임시로 이동 처리
 //			request.getRequestDispatcher("/app/board/boardList.jsp").forward(request, response);
-			result = new BoardListOkController().execute(request, response);
-			System.out.println(result);
-			break;
-			
-		case "/board/boardRead.bo":
-			result = new BoardReadController().execute(request, response);
-			break;
-		case "/board/boardReadOk.bo":
-			request.getRequestDispatcher("/app/board/boardRead.jsp").forward(request, response);
-			break;
-		case "/board/boardWrite.bo":
-			result = new BoardWriteController().execute(request, response);
-//			request.getRequestDispatcher("/app/board/boardWrite.jsp").forward(request, response);
-			break;
-		case "/board/boardWriteOk.bo":
-			result = new BoardWriteOkController().execute(request, response);
-
-			break;
-		case "/board/boardDeleteOk.bo":
-			result = new BoardDeleteOkController().execute(request, response);
-			break;
-
-		case "/board/boardUpdate.bo":
-			result = new BoardUpdateController().execute(request, response);
-			break;
-		case "/board/boardUpdateOk.bo":
-			result = new BoardUpdateOkController().execute(request, response);
-			break;
+//		result = new BoardListOkController().execute(request, response);
+//			System.out.println(result);
+//			break;
+//			
+//		case "/board/boardRead.bo":
+//			result = new BoardReadController().execute(request, response);
+//			break;
+//		case "/board/boardReadOk.bo":
+//			request.getRequestDispatcher("/app/board/boardRead.jsp").forward(request, response);
+//			break;
+//		case "/board/boardWrite.bo":
+//			result = new BoardWriteController().execute(request, response);
+////			request.getRequestDispatcher("/app/board/boardWrite.jsp").forward(request, response);
+//			break;
+//		case "/board/boardWriteOk.bo":
+//			result = new BoardWriteOkController().execute(request, response);
+//
+//			break;
+//		case "/board/boardDeleteOk.bo":
+//			result = new BoardDeleteOkController().execute(request, response);
+//			break;
+//
+//		case "/board/boardUpdate.bo":
+//			result = new BoardUpdateController().execute(request, response);
+//			break;
+//		case "/board/boardUpdateOk.bo":
+//			result = new BoardUpdateOkController().execute(request, response);
+//			break;
 		}
 
 		if (result != null) {

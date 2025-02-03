@@ -20,55 +20,99 @@ public class MemberDTO {
 	private int memberAge;
 	private String memberGender;
 	
+	
+	
 	public int getMemberNumber() {
 		return memberNumber;
 	}
+
+
+
 	public void setMemberNumber(int memberNumber) {
 		this.memberNumber = memberNumber;
 	}
+
+
+
 	public String getMemberId() {
 		return memberId;
 	}
+
+
+
 	public void setMemberId(String memberId) {
 		this.memberId = memberId;
 	}
+
+
+
 	public String getMemberPassword() {
 		return memberPassword;
 	}
+
+
+
 	public void setMemberPassword(String memberPassword) {
 		this.memberPassword = memberPassword;
 	}
+
+
+
 	public String getMemberName() {
 		return memberName;
 	}
+
+
+
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
 	}
-	public String getMemberphoneNumber() {
+
+
+
+	public String getMemberPhoneNumber() {
 		return memberPhoneNumber;
 	}
-	public void setMemberphoneNumber(String memberphoneNumber) {
-		this.memberPhoneNumber = memberphoneNumber;
+
+
+
+	public void setMemberPhoneNumber(String memberPhoneNumber) {
+		this.memberPhoneNumber = memberPhoneNumber;
 	}
+
+
+
 	public int getMemberAge() {
 		return memberAge;
 	}
+
+
+
 	public void setMemberAge(int memberAge) {
 		this.memberAge = memberAge;
 	}
+
+
+
 	public String getMemberGender() {
 		return memberGender;
 	}
+
+
+
 	public void setMemberGender(String memberGender) {
 		this.memberGender = memberGender;
 	}
-	
+
+
+
 	@Override
 	public String toString() {
 		return "MemberDTO [memberNumber=" + memberNumber + ", memberId=" + memberId + ", memberPassword="
 				+ memberPassword + ", memberName=" + memberName + ", memberPhoneNumber=" + memberPhoneNumber
 				+ ", memberAge=" + memberAge + ", memberGender=" + memberGender + "]";
 	}
+	
 	
 	
 }

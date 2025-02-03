@@ -11,7 +11,9 @@
 <body>
 	<div class="container">
 		<!-- join처리 경로 잡기 -->
+		<!-- 실제 보이는 경로 /member/joinOk.me 서블릿으로 이동 -->
 		<form action="${pageContext.request.contextPath }/member/joinOk.me"
+		
 			method="POST">
 			<h2>회원 가입</h2>
 			<div class="form-group">
@@ -22,12 +24,14 @@
 			<div class="form-group">
 				<label for="password">비밀번호</label> <input type="password"
 					id="password" name="memberPassword" placeholder="비밀번호를 입력하세요"
-					required /> <span class="check-msg" id="check-pw-msg1"></span>
+					required /> 
+					<span class="check-msg" id="check-pw-msg"></span>
 			</div>
 			<div class="form-group">
-				<label for="password">비밀번호 재확인</label> <input type="password"
-					id="password" name="memberPassword" placeholder="비밀번호를 입력하세요"
-					required /> <span class="check-msg" id="check-pw-msg2"></span>
+				<label for="passwordConfirm">비밀번호 재확인</label> <input type="password"
+					id="passwordConfirm" name="memberPassword" placeholder="비밀번호를 입력하세요"
+					required />
+					 <span class="check-msg" id="check-pw-confirm-msg"></span>
 			</div>
 			<div class="form-group">
 				<label for="name">이름</label> <input type="text" id="name"
