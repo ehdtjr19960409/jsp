@@ -33,6 +33,7 @@ CREATE table tbl_board(
 	board_title varchar2(300),
 	board_content varchar2(1000),
 	board_date timestamp DEFAULT CURRENT_timestamp, -- 현재날짜 / 시간 기본값
+	board_read_count NUMBER DEFAULT 0, --조회수 값을 추가
 	member_number NUMBER, --fk 참조값
 	CONSTRAINT pk_board PRIMARY KEY (board_number),
 	CONSTRAINT fk_board FOREIGN KEY (member_number) references tbl_member(member_number) ON DELETE cascade
@@ -46,8 +47,28 @@ nocycle;
 SELECT * FROM tbl_board;
 SELECT * FROM tbl_member;
 
-UPDATE TBL_MEMBER A
-SET A.MEMBER_PASSWORD = '1234' -- {#입력받을 값}
-WHERE 
+INSERT INTO TBL_MEMBER(MEMBER_NUMBER, member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES (2,'abc', '1234', '이름', '01020002000', 20, 'M');
 
-컨트로안에서 
+DROP TABLE tbl_board;
+
+INSERT INTO TBL_BOARD tb (BOARD_NUMBER, BOARD_TITLE, BOARD_CONTENT)
+values(1, 'abc', 'qwer');
+
+DELETE FROM TBL_BOARD tb  WHERE board_number = 1;
+
+insert into tbl_board
+(board_number, board_title, board_content, member_number)
+values(seq_board.nextVal, '테스트 타이틀3', '테스트 글 입니다3!!!', 2);
+
+
+-- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+);
+
+select * FROM tbl_file;

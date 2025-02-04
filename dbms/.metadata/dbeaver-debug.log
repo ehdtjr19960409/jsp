@@ -1,23 +1,23 @@
-2025-02-03 11:13:44.693 - DBeaver 24.3.0.202412011650 is starting
-2025-02-03 11:13:44.694 - OS: Windows 10 10.0 (amd64)
-2025-02-03 11:13:44.694 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2025-02-03 11:13:44.694 - Install path: 'D:\web_0900_sds\dbms_resource\resource\dbeaver-ce-24.3.0-win32.win32.x86_64\dbeaver'
-2025-02-03 11:13:44.694 - Instance path: 'file:/D:/web_0900_sds/jsp_6/dbms/'
-2025-02-03 11:13:44.696 - Memory available 64Mb/1024Mb
-2025-02-03 11:13:44.696 - Platform not initialized: metadata folder may be not set
-2025-02-03 11:13:44.703 - Create display
-2025-02-03 11:13:44.783 - Initialize desktop platform...
-2025-02-03 11:13:44.871 - BounceCastle bundle found. Use JCE provider BC
+2025-02-04 09:10:39.122 - DBeaver 24.3.0.202412011650 is starting
+2025-02-04 09:10:39.123 - OS: Windows 10 10.0 (amd64)
+2025-02-04 09:10:39.124 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2025-02-04 09:10:39.124 - Install path: 'D:\web_0900_sds\dbms_resource\resource\dbeaver-ce-24.3.0-win32.win32.x86_64\dbeaver'
+2025-02-04 09:10:39.124 - Instance path: 'file:/D:/web_0900_sds/jsp_6/dbms/'
+2025-02-04 09:10:39.126 - Memory available 64Mb/1024Mb
+2025-02-04 09:10:39.127 - Platform not initialized: metadata folder may be not set
+2025-02-04 09:10:39.137 - Create display
+2025-02-04 09:10:39.256 - Initialize desktop platform...
+2025-02-04 09:10:39.365 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.0.v20240824-0952]
 > Start Core Resource Management [org.eclipse.core.resources 3.21.0.v20240805-1607]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.144.202412011650]
 > Start Team Support Core [org.eclipse.team.core 3.10.500.v20240621-0541]
-2025-02-03 11:13:45.010 - Initialize base platform...
+2025-02-04 09:10:39.551 - Initialize base platform...
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.144.202412011650]
-2025-02-03 11:13:45.025 - send collected statistics
-2025-02-03 11:13:45.037 - Platform initialized (254ms)
-2025-02-03 11:13:45.072 - Starting instance server at http://localhost:51149
-2025-02-03 11:13:45.078 - Run workbench
+2025-02-04 09:10:39.580 - send collected statistics
+2025-02-04 09:10:39.604 - Platform initialized (347ms)
+2025-02-04 09:10:39.651 - Starting instance server at http://localhost:50146
+2025-02-04 09:10:39.667 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.500.v20240807-0911]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
@@ -32,18 +32,18 @@
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
 > Start Default Text Editor [org.eclipse.ui.editors 3.18.0.v20240807-0735]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.18.0.v20240819-1419]
-2025-02-03 11:13:46.286 - Configure workbench window
+2025-02-04 09:10:41.164 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.134.202412011650]
-2025-02-03 11:13:46.368 - Script dialect 'gbase8s' not found in registry (for data source provider gbase8s). Use default.
-2025-02-03 11:13:46.404 - Total database drivers: 121 (121)
+2025-02-04 09:10:41.242 - Script dialect 'gbase8s' not found in registry (for data source provider gbase8s). Use default.
+2025-02-04 09:10:41.289 - Total database drivers: 121 (121)
 > Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
-2025-02-03 11:13:46.453 - Create actions
-2025-02-03 11:13:46.457 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2025-02-03 11:13:46.458 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2025-02-03 11:13:46.458 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2025-02-03 11:13:46.458 - Create workbench actions
-2025-02-03 11:13:46.713 - Initialize workbench window
-2025-02-03 11:13:46.716 - Finish initialization
+2025-02-04 09:10:41.339 - Create actions
+2025-02-04 09:10:41.344 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-02-04 09:10:41.344 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-02-04 09:10:41.344 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-02-04 09:10:41.344 - Create workbench actions
+2025-02-04 09:10:41.622 - Initialize workbench window
+2025-02-04 09:10:41.626 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.144.202412011650]
 Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.144.202412011650]
@@ -66,146 +66,98 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.122.202412011650]
 > Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.131.202412011650]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.122.202412011650]
-2025-02-03 11:13:48.613 - Connect with 'localhost' (oracle_thin-194678f8c57-1e9b215959d1e678)
-2025-02-03 11:13:48.636 - Execution context opened (localhost; Main; 0)
-2025-02-03 11:13:49.036 - Execution context opened (localhost; Metadata; 1)
+2025-02-04 09:10:43.588 - Connect with 'localhost' (oracle_thin-194c99fc2c9-60303fc7df6c0b49)
+2025-02-04 09:10:43.612 - Execution context opened (localhost; Main; 0)
+2025-02-04 09:10:44.034 - Execution context opened (localhost; Metadata; 1)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.39.202412011650]
-2025-02-03 11:13:49.151 - Connected (oracle_thin-194678f8c57-1e9b215959d1e678, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:13:49.152 - Execution context opened (localhost; SQLEditor <Script.sql>; 2)
-2025-02-03 11:13:50.656 - Open [https://dbeaver.io/product/version.xml]
-2025-02-03 11:14:57.848 - Connect with 'localhost' (oracle_thin-19486e16c73-17011ece751cc381)
-2025-02-03 11:14:57.849 - Execution context opened (localhost; Main; 3)
-2025-02-03 11:14:58.004 - Execution context opened (localhost; Metadata; 4)
-2025-02-03 11:14:58.030 - Connected (oracle_thin-19486e16c73-17011ece751cc381, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:14:58.039 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 5)
-2025-02-03 11:15:03.512 - Execution context closed (localhost, 2)
-2025-02-03 11:15:06.391 - Execution context closed (localhost, 5)
-2025-02-03 11:15:07.425 - Execution context opened (localhost; SQLEditor <Script.sql>; 6)
-2025-02-03 11:15:09.010 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 7)
-2025-02-03 11:15:19.590 - Unrecognized Oracle client version at C:\oracle21c\dbhomeXE
-2025-02-03 11:15:19.659 - Auth model 'native' was replaced by 'oracle_native'
-2025-02-03 11:15:19.673 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2025-02-03 11:15:27.990 - Connect with 'jdbc:oracle:thin:@//localhost:1521/ORCL' (oracle_thin-194c9975de4-656e265c5d0a93ea)
-2025-02-03 11:15:27.991 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/ORCL; Main; 8)
-2025-02-03 11:15:28.153 - Listener refused the connection with the following error:
-ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
-  (CONNECTION_ID=+zOzx0lYTIS3jOr0RsD1BQ==)
-oracle.net.ns.NetException: Listener refused the connection with the following error:
-ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
-  (CONNECTION_ID=+zOzx0lYTIS3jOr0RsD1BQ==)
-	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:816)
-	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:396)
-	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:207)
-	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:354)
-	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2155)
-	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:652)
-	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1086)
-	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90)
-	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728)
-	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:214)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
-	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:197)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
-	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:110)
-	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1395)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1266)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1056)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2025-02-03 11:15:36.044 - Connect with 'jdbc:oracle:thin:@//localhost:1521/ORCL' (oracle_thin-194c9977d5e-2677957c8a980c9b)
-2025-02-03 11:15:36.045 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/ORCL; Main; 9)
-2025-02-03 11:15:36.104 - Listener refused the connection with the following error:
-ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
-  (CONNECTION_ID=A47iH+gmRci2UL6+5dnqcw==)
-oracle.net.ns.NetException: Listener refused the connection with the following error:
-ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
-  (CONNECTION_ID=A47iH+gmRci2UL6+5dnqcw==)
-	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:816)
-	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:396)
-	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:207)
-	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:354)
-	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2155)
-	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:652)
-	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1086)
-	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90)
-	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728)
-	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:214)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
-	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:197)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
-	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:110)
-	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1395)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1266)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1056)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2025-02-03 11:15:42.795 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-194c99797b9-7cf2ff5e4613261c)
-2025-02-03 11:15:42.796 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 10)
-2025-02-03 11:15:42.821 - Connected (oracle_thin-194c99797b9-7cf2ff5e4613261c, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:15:42.833 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 10)
-2025-02-03 11:15:42.834 - Disconnected (oracle_thin-194c99797b9-7cf2ff5e4613261c)
-2025-02-03 11:19:45.392 - Connect with 'localhost 2' (oracle_thin-194c9973d25-50261f4a973dcfe7)
-2025-02-03 11:19:45.393 - Execution context opened (localhost 2; Main; 11)
-2025-02-03 11:19:45.420 - Execution context opened (localhost 2; Metadata; 12)
-2025-02-03 11:19:45.443 - Connected (oracle_thin-194c9973d25-50261f4a973dcfe7, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:19:51.164 - Execution context closed (localhost 2, 11)
-2025-02-03 11:19:51.175 - Execution context closed (localhost 2, 12)
-2025-02-03 11:19:51.175 - Disconnected (oracle_thin-194c9973d25-50261f4a973dcfe7)
-2025-02-03 11:19:56.374 - 	Invalidate context 'Main' for oracle_thin-19486e16c73-17011ece751cc381 (BEFORE_INVALIDATE)
-2025-02-03 11:19:56.386 - Execution context closed (localhost, 3)
-2025-02-03 11:19:56.386 - 	Invalidate context 'Metadata' for oracle_thin-19486e16c73-17011ece751cc381 (BEFORE_INVALIDATE)
-2025-02-03 11:19:56.397 - Execution context closed (localhost, 4)
-2025-02-03 11:19:56.397 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (BEFORE_INVALIDATE)
-2025-02-03 11:19:56.408 - Execution context closed (localhost, 6)
-2025-02-03 11:19:56.408 - 	Invalidate context 'SQLEditor <Script-1.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (BEFORE_INVALIDATE)
-2025-02-03 11:19:56.420 - Execution context closed (localhost, 7)
-2025-02-03 11:19:56.420 - 	Invalidate context 'Main' for oracle_thin-19486e16c73-17011ece751cc381 (INVALIDATE)
-2025-02-03 11:19:56.439 - 	Invalidate context 'Metadata' for oracle_thin-19486e16c73-17011ece751cc381 (INVALIDATE)
-2025-02-03 11:19:56.459 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (INVALIDATE)
-2025-02-03 11:19:56.479 - 	Invalidate context 'SQLEditor <Script-1.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (INVALIDATE)
-2025-02-03 11:19:56.498 - 	Invalidate context 'Main' for oracle_thin-19486e16c73-17011ece751cc381 (AFTER_INVALIDATE)
-2025-02-03 11:19:56.498 - 	Invalidate context 'Metadata' for oracle_thin-19486e16c73-17011ece751cc381 (AFTER_INVALIDATE)
-2025-02-03 11:19:56.498 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (AFTER_INVALIDATE)
-2025-02-03 11:19:56.499 - 	Invalidate context 'SQLEditor <Script-1.sql>' for oracle_thin-19486e16c73-17011ece751cc381 (AFTER_INVALIDATE)
-2025-02-03 11:19:56.504 - Connections reopened: 4 (of 4)
-2025-02-03 11:20:06.759 - Execution context closed (localhost, 7)
-2025-02-03 11:24:38.136 - Auth model 'native' was replaced by 'oracle_native'
-2025-02-03 11:24:38.142 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2025-02-03 11:24:43.199 - Connect with 'jdbc:oracle:thin:@//localhost:1521/xe' (oracle_thin-194c99fd6b1-353fa3e14e50c6ba)
-2025-02-03 11:24:43.200 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/xe; Main; 13)
-2025-02-03 11:24:43.338 - Connected (oracle_thin-194c99fd6b1-353fa3e14e50c6ba, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:24:43.349 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/xe, 13)
-2025-02-03 11:24:43.349 - Disconnected (oracle_thin-194c99fd6b1-353fa3e14e50c6ba)
-2025-02-03 11:24:51.129 - Execution context closed (localhost, 6)
-2025-02-03 11:24:56.746 - Connect with 'localhost' (oracle_thin-194c99fc2c9-60303fc7df6c0b49)
-2025-02-03 11:24:56.746 - Execution context opened (localhost; Main; 14)
-2025-02-03 11:24:56.782 - Execution context opened (localhost; Metadata; 15)
-2025-02-03 11:24:56.808 - Connected (oracle_thin-194c99fc2c9-60303fc7df6c0b49, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 11:24:56.811 - Execution context opened (localhost; SQLEditor <Script.sql>; 16)
-2025-02-03 11:27:50.796 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+2025-02-04 09:10:44.166 - Connected (oracle_thin-194c99fc2c9-60303fc7df6c0b49, Oracle JDBC driver [21.3.0.0.0])
+2025-02-04 09:10:44.167 - Execution context opened (localhost; SQLEditor <Script.sql>; 2)
+2025-02-04 09:10:45.666 - Open [https://dbeaver.io/product/version.xml]
+2025-02-04 09:24:56.135 - SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
 
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+2025-02-04 09:25:10.922 - SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.128.202412011650]
+2025-02-04 17:01:38.744 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 67 pos: 40
 org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
@@ -239,797 +191,26 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이�
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
 	... 12 more
-Caused by: Error : 955, Position : 13, Sql = CREATE TABLE tbl_member(
-		member_number NUMBER,
-		member_id varchar2(300),
-		member_password varchar2(300),
-		member_name varchar2(300),
-   		member_phone_number varchar2(300),
-		member_age NUMBER(3),
-		member_gender char(1),
-		CONSTRAINT pk_member PRIMARY KEY(member_number)
-	), OriginalSql = CREATE TABLE tbl_member(
-		member_number NUMBER,
-		member_id varchar2(300),
-		member_password varchar2(300),
-		member_name varchar2(300),
-   		member_phone_number varchar2(300),
-		member_age NUMBER(3),
-		member_gender char(1),
-		CONSTRAINT pk_member PRIMARY KEY(member_number)
-	), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:33:02.835 - SQL Error [900] [42000]: ORA-00900: SQL 문이 부적합합니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [900] [42000]: ORA-00900: SQL 문이 부적합합니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00900: SQL 문이 부적합합니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 900, Position : 0, Sql = ), OriginalSql = ), Error Msg = ORA-00900: SQL 문이 부적합합니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:33:07.885 - SQL Error [901] [42000]: ORA-00901: CREATE 명령어가 부적합합니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [901] [42000]: ORA-00901: CREATE 명령어가 부적합합니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00901: CREATE 명령어가 부적합합니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 901, Position : 7, Sql = CREATE talbe tbl_board(
-	board_number NUMBER,
-	board_title varchar2(300),
-	board_content varchar2(1000),
-	board_date timestamp DEFAULT CURRENT_timestamp, -- 현재날짜 / 시간 기본값
-	member_number NUMBER, --fk 참조값
-	CONSTRAINT pk_board PRIMARY KEY (board_number),
-	CONSTRAINT fk_board FOREIGN KEY (member_number) references tbl_member(member_number) ON DELETE cascade
-), OriginalSql = CREATE talbe tbl_board(
-	board_number NUMBER,
-	board_title varchar2(300),
-	board_content varchar2(1000),
-	board_date timestamp DEFAULT CURRENT_timestamp, -- 현재날짜 / 시간 기본값
-	member_number NUMBER, --fk 참조값
-	CONSTRAINT pk_board PRIMARY KEY (board_number),
-	CONSTRAINT fk_board FOREIGN KEY (member_number) references tbl_member(member_number) ON DELETE cascade
-), Error Msg = ORA-00901: CREATE 명령어가 부적합합니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:33:17.353 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 13, Sql = CREATE table tbl_board(
-	board_number NUMBER,
-	board_title varchar2(300),
-	board_content varchar2(1000),
-	board_date timestamp DEFAULT CURRENT_timestamp, -- 현재날짜 / 시간 기본값
-	member_number NUMBER, --fk 참조값
-	CONSTRAINT pk_board PRIMARY KEY (board_number),
-	CONSTRAINT fk_board FOREIGN KEY (member_number) references tbl_member(member_number) ON DELETE cascade
-), OriginalSql = CREATE table tbl_board(
-	board_number NUMBER,
-	board_title varchar2(300),
-	board_content varchar2(1000),
-	board_date timestamp DEFAULT CURRENT_timestamp, -- 현재날짜 / 시간 기본값
-	member_number NUMBER, --fk 참조값
-	CONSTRAINT pk_board PRIMARY KEY (board_number),
-	CONSTRAINT fk_board FOREIGN KEY (member_number) references tbl_member(member_number) ON DELETE cascade
+Caused by: Error : 955, Position : 40, Sql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+), OriginalSql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
 ), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
 	... 26 more
-2025-02-03 11:33:49.205 - SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 2449, Position : 11, Sql = DROP TABLE TBL_BOARD, OriginalSql = DROP TABLE TBL_BOARD, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:34:20.179 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 16, Sql = CREATE SEQUENCE seq_board START WITH 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = CREATE SEQUENCE seq_board START WITH 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:35:03.628 - SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 2449, Position : 11, Sql = DROP TABLE tbl_member, OriginalSql = DROP TABLE tbl_member, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:35:10.146 - SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 2449, Position : 11, Sql = DROP TABLE TBL_BOARD , OriginalSql = DROP TABLE TBL_BOARD , Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.128.202412011650]
-2025-02-03 11:40:02.216 - SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 2449, Position : 11, Sql = DROP TABLE tbl_member, OriginalSql = DROP TABLE tbl_member, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:40:12.988 - SQL Error [970] [42000]: ORA-00970: WITH 키워드가 없습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [970] [42000]: ORA-00970: WITH 키워드가 없습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00970: WITH 키워드가 없습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 970, Position : 64, Sql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START withd 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START withd 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00970: WITH 키워드가 없습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:40:21.121 - SQL Error [970] [42000]: ORA-00970: WITH 키워드가 없습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [970] [42000]: ORA-00970: WITH 키워드가 없습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00970: WITH 키워드가 없습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 970, Position : 64, Sql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START withd 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START withd 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00970: WITH 키워드가 없습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:40:40.065 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 47, Sql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:40:55.803 - SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 933, Position : 20, Sql = DROP TABLE SEQUENCE seq_member, OriginalSql = DROP TABLE SEQUENCE seq_member, Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:41:19.284 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 47, Sql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:41:26.481 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 47, Sql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- 1. member 시퀀스 생성
-CREATE SEQUENCE seq_member START with 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:41:34.778 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 955, Position : 43, Sql = -- board 시퀀스 생성
-CREATE SEQUENCE seq_board START WITH 1 INCREMENT BY 1
-nocache
-nocycle, OriginalSql = -- board 시퀀스 생성
-CREATE SEQUENCE seq_board START WITH 1 INCREMENT BY 1
-nocache
-nocycle, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 11:42:33.089 - SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
-	... 12 more
-Caused by: Error : 933, Position : 24, Sql = DROP  SEQUENCE SEQUENCE seq_board, OriginalSql = DROP  SEQUENCE SEQUENCE seq_board, Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 26 more
-2025-02-03 15:43:20.107 - Execution context closed (localhost, 0)
-2025-02-03 15:43:20.107 - Execution context closed (localhost, 3)
-2025-02-03 15:43:20.109 - Execution context closed (localhost, 14)
-2025-02-03 15:43:20.119 - Execution context closed (localhost, 1)
-2025-02-03 15:43:20.119 - Disconnected (oracle_thin-194678f8c57-1e9b215959d1e678)
-2025-02-03 15:43:20.119 - Execution context closed (localhost, 4)
-2025-02-03 15:43:20.119 - Disconnected (oracle_thin-19486e16c73-17011ece751cc381)
-2025-02-03 15:43:20.119 - Execution context closed (localhost, 15)
-2025-02-03 15:43:20.130 - Execution context closed (localhost, 16)
-2025-02-03 15:43:20.130 - Disconnected (oracle_thin-194c99fc2c9-60303fc7df6c0b49)
-2025-02-03 15:43:36.137 - Connect with 'localhost' (oracle_thin-194c99fc2c9-60303fc7df6c0b49)
-2025-02-03 15:43:36.138 - Execution context opened (localhost; Main; 17)
-2025-02-03 15:43:36.164 - Execution context opened (localhost; Metadata; 18)
-2025-02-03 15:43:36.215 - Connected (oracle_thin-194c99fc2c9-60303fc7df6c0b49, Oracle JDBC driver [21.3.0.0.0])
-2025-02-03 15:43:36.216 - Execution context opened (localhost; SQLEditor <Script.sql>; 19)
-2025-02-03 16:43:40.212 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:208)
-	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:111)
-	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:75)
-	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.cacheStructure(OracleSchema.java:421)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findNestedObject(SQLSearchUtils.java:240)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:189)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:106)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
-	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:125)
-	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObject(SQLQueryDataSourceContext.java:103)
-	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:163)
-	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
-	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryUpdateModel.applyContext(SQLQueryUpdateModel.java:168)
-	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
-	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
-	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:660)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:96)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLTimeoutException: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
-	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:163)
-	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1010)
-	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
-	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
-	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
-	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3761)
-	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4136)
-	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1014)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:261)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:205)
-	... 19 more
-Caused by: Error : 1013, Position : 148, Sql = SELECT  O.*,
-t.TABLE_TYPE_OWNER,t.TABLE_TYPE,t.TABLESPACE_NAME,t.PARTITIONED,t.IOT_TYPE,t.IOT_NAME,t.TEMPORARY,t.SECONDARY,t.NESTED,t.NUM_ROWS
-FROM ALL_OBJECTS O
-, ALL_ALL_TABLES t WHERE t.OWNER(+) = O.OWNER AND t.TABLE_NAME(+) = o.OBJECT_NAME
-AND O.OWNER=:1  AND O.OBJECT_TYPE IN ('TABLE', 'VIEW', 'MATERIALIZED VIEW'), OriginalSql = SELECT  O.*,
-t.TABLE_TYPE_OWNER,t.TABLE_TYPE,t.TABLESPACE_NAME,t.PARTITIONED,t.IOT_TYPE,t.IOT_NAME,t.TEMPORARY,t.SECONDARY,t.NESTED,t.NUM_ROWS
-FROM ALL_OBJECTS O
-, ALL_ALL_TABLES t WHERE t.OWNER(+) = O.OWNER AND t.TABLE_NAME(+) = o.OBJECT_NAME
-AND O.OWNER=? AND O.OBJECT_TYPE IN ('TABLE', 'VIEW', 'MATERIALIZED VIEW'), Error Msg = ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
-	... 35 more
-2025-02-03 17:47:28.503 - Execution context closed (localhost, 19)
-2025-02-03 17:47:28.589 - Dispose navigator model
-2025-02-03 17:47:28.602 - DBeaver is stopping
-2025-02-03 17:47:28.602 - Stop instance server
-2025-02-03 17:47:29.605 - Instance server has been stopped
-2025-02-03 17:47:29.605 - DBeaver shutdown completed
+2025-02-04 17:58:43.806 - Execution context closed (localhost, 2)
+2025-02-04 17:58:43.915 - Dispose navigator model
+2025-02-04 17:58:43.932 - DBeaver is stopping
+2025-02-04 17:58:43.932 - Stop instance server
+2025-02-04 17:58:44.944 - DBeaver shutdown completed

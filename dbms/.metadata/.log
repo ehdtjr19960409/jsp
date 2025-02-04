@@ -2350,3 +2350,166 @@ AND O.OWNER=? AND O.OBJECT_TYPE IN ('TABLE', 'VIEW', 'MATERIALIZED VIEW'), Error
 
 !ENTRY org.jkiss.dbeaver.model 2 0 2025-02-03 17:47:30.268
 !MESSAGE Some data source listeners are still registered: org.jkiss.dbeaver.model.navigator.DBNProjectDatabases:node://jsp02/datasources
+!SESSION 2025-02-04 09:10:37.368 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -eclipse.keyring C:\Users\Administrator\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2025-02-04 09:10:42.649
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-02-04 09:24:56.139
+!MESSAGE SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-02-04 09:24:56.139
+!MESSAGE Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+!STACK 0
+Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER tm( member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-02-04 09:25:10.923
+!MESSAGE SQL Error [1400] [23000]: ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-02-04 09:25:10.923
+!MESSAGE Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+!STACK 0
+Error : 1400, Position : 0, Sql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), OriginalSql = INSERT INTO TBL_MEMBER(member_id, member_password, member_name, member_phone_number, member_age, member_gender) 
+VALUES ('abc', '1234', '이름', '01020002000', 20, 'M'), Error Msg = ORA-01400: NULL을 ("TEST"."TBL_MEMBER"."MEMBER_NUMBER") 안에 삽입할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-02-04 17:01:38.745
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 67 pos: 40
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-02-04 17:01:38.745
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2025-02-04 17:01:38.745
+!MESSAGE Error : 955, Position : 40, Sql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+), OriginalSql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!STACK 0
+Error : 955, Position : 40, Sql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+), OriginalSql = -- 파일테이블 생성
+CREATE TABLE tbl_file(
+	FILE_SYSTEM_NAME VARCHAR2(300), --서버에 저장되는 실제 파일명
+	FILE_ORIGINAL_NAME VARCHAR2(300), --원본 파일명
+	BOARD_NUMBER NUMBER,
+	CONSTRAINT PK_FILE PRIMARY KEY(FILE_SYSTEM_NAME),
+	CONSTRAINT FK_FILE FOREIGN KEY(BOARD_NUMBER) REFERENCES TBL_BOARD(BOARD_NUMBER) 
+), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1016)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4273)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2025-02-04 17:58:45.600
+!MESSAGE Some data source listeners are still registered: org.jkiss.dbeaver.model.navigator.DBNProjectDatabases:node://final_jsp/datasources
