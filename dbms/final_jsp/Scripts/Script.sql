@@ -72,3 +72,27 @@ CREATE TABLE tbl_file(
 );
 
 select * FROM tbl_file;
+
+/*댓글 테이블 생성*/
+CREATE TABLE tbl_reply(
+	reply_number NUMBER,
+	reply_content varchar2(500),
+	reply_date DATE DEFAULT current_timestamp,
+	board_number NUMBER,
+	member_number NUMBER,
+	CONSTRAINT pk_reply PRIMARY KEY(reply_number),
+	CONSTRAINT fk_reply_board FOREIGN KEY(board_number) REFERENCES tbl_board(board_number) ON DELETE CASCADE,
+	CONSTRAINT fk_reply_member FOREIGN KEY(member_number) REFERENCES tbl_member(member_number) ON DELETE CASCADE
+);
+
+CREATE SEQUENCE seq_reply
+START WITH 1 INCREMENT BY 1 nocache nocycle;
+
+
+SELECT * FROM tbl_reply;
+SELECT * FROM TBL_BOARD tb ;
+
+
+INSERT INTO tbl_reply
+values(seq_reply.nextVal, '댓글작성', sysdate, 24, 1);
+

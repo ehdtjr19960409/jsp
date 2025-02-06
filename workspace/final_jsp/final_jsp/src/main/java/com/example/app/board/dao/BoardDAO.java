@@ -55,12 +55,20 @@ public class BoardDAO {
 		int result = sqlSession.update("board.updateReadCount", boardNumber);
 		System.out.println("조회수 업데이트 결과 : " + result);
 		
-		
-		
-		
 	}
 	
+	//게시글 삭제 메소드
+	public void delete(int boardNumber) {
+		System.out.println("게시글 삭제 실행" + boardNumber);
+		sqlSession.delete("board.delete", boardNumber);
+		System.out.println("게시글 삭제 쿼리 실행 완료");
+	}
 	
-	
+	//게시글 수정 메소드
+	public void update(BoardDTO boardDTO) {
+		System.out.println("게시글 수정 실행"+boardDTO);
+		sqlSession.update("board.update", boardDTO);
+		System.out.println("게시글 수정 쿼리 실행 완료");
+	}
 	
 }

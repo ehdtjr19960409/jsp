@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDashboardFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="105"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
 	<item id="NodeList/OracleTableIndex/OracleTableIndexColumn">
 		<column name="Column" visible="true" order="0" width="185"/>
 		<column name="인덱스명" visible="true" order="1" width="167"/>
